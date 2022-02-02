@@ -38,7 +38,7 @@ slider.oninput = function() {
 var black = document.getElementById('black');
 var red = document.getElementById('red');
 var blue = document.getElementById('blue');
-var purple = document.getElementById('green');
+var purple = document.getElementById('indigo');
 
 black.addEventListener('click', function() {
     paragraph.style.color = "black";
@@ -50,7 +50,7 @@ blue.addEventListener('click', function() {
     paragraph.style.color = "blue";
 })
 green.addEventListener('click', function() {
-    paragraph.style.color = "green";
+    paragraph.style.color = "indigo";
 })
 
 var normal = document.getElementById('normal');
